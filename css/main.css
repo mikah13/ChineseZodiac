@@ -1,1 +1,311 @@
-#nav ul,#signs{list-style-type:none;overflow:hidden}#mainContent,#signs{background-color:#e9d2c4}#nav li,#signs li{float:left;width:25%}#nav li a,#signs li a{display:block;text-decoration:none;text-align:center}#nav li a,#signs li a,a{text-decoration:none}#mainContent,#nav li,#nav li a,#signs li a,footer{text-align:center}body{font-family:Arial,sans-serif;background-color:#e62d59}ul{list-style-type:none}#mainContent{border-radius:4px;width:80%;margin:0 auto 20px;padding-bottom:10px}#mainContent hr{border-width:40px;border-left:#fff;border-right:#fff;border-top:0;border-bottom-color:#e62d59}#title:hover{color:red;cursor:pointer}#banner{width:100%;height:100%}#chibi-sign{width:60%}#logo{width:25%;animation:spin 3s linear infinite}@keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}#top img{width:25px;height:25px}#nav ul{padding:0;background-color:#333;margin-top:10px}#nav li{font-size:25px}#nav li a{color:#c7c3c4;padding:14px 16px}#nav li a:hover{background-color:#111;color:#fff}#title{font-family:"Rock Salt";margin-bottom:20px;font-size:35px;color:red}#signs{padding-left:0}#signs li{margin-top:25px}#signs li a{color:#000;padding:5px}#signs img:hover{border-radius:60px;border-color:#fff;transform:scale(1.5,1.5);transition:all .4s}#signs img{border-width:3px;border-style:solid;transition:1s;width:150px;height:150px}figcaption{font-size:25px}input,textarea{width:50%;font-size:18px}#thankyou{float:right;display:inline;margin-left:0;margin-top:70px;width:40%}#thankyou img{margin-right:50%;width:80%;height:auto;border:8px dotted #e62d59}input{background-color:#fff;height:50px;padding:1px;border:2px solid #ccc;border-radius:4px;box-sizing:border-box}textarea{height:200px;resize:none}#form{margin-top:60px}#form p{margin-bottom:3px}input[type=submit]{margin-top:30px;background-color:#4CAF50;width:15%;color:#fff;padding:12px 20px 30px;border:none;border-radius:4px;cursor:pointer}button:hover{cursor:pointer;border-radius:2px}input[type=submit]:hover{background-color:#45a049;box-shadow:1px 1px 1px 1px}form{text-align:left;padding-left:30px}.z-sign{border-style:solid;border-width:3px;border-color:#000}footer{width:100%;height:auto;bottom:0;left:0;right:0;font-weight:700;font-size:15px}
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    /*set the font for all pages*/
+    background-color: rgb(230, 45, 89);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(230, 45, 89);
+}
+
+#mainContent {
+    /* create the centered layer */
+    background-color: #e9d2c4;
+    border-radius: 4px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+#mainContent hr {
+    border-width: 40px;
+    border-left: white;
+    border-right: white;
+    border-top: 0px;
+    border-bottom-color: rgb(230, 45, 89);
+}
+
+#banner {
+    width: 100%;
+    height: 100%;
+}
+
+#chibi-sign {
+    width: 60%;
+    margin-top: 30px;
+}
+
+#logo {
+    /* Make the Yin Yang logo spin */
+    width: 25%;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+#intro {
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#top img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Styling the Nav Bar */
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-top: 10px;
+}
+
+#nav li {
+    font-size: 25px;
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+
+#nav li a {
+    display: block;
+    color: rgb(199, 195, 196);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+
+/* End of general styling and index.html*/
+
+
+/* Styling the 12 Images 12signs.html*/
+
+#title {
+    font-size: 35px;
+    color: red;
+}
+
+#signs {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #e9d2c4;
+    padding-left: 0px;
+}
+
+#signs li {
+    margin-top: 25px;
+    float: left;
+    width: 25%;
+}
+
+#signs li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+
+#signs img:hover {
+    /* Create the animation for the signs picture */
+    border-radius: 60px;
+    border-color: white;
+    transform: scale(1.5, 1.5);
+    transition: all .7s;
+}
+
+#signs img {
+    border-width: 3px;
+    border-style: solid;
+    transition: 1s;
+    width: 150px;
+    height: 150px;
+}
+
+figcaption {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* End of 12signs.html */
+
+
+/* Styling for contactus.html */
+
+#thankyou {
+    float: right;
+    display: inline;
+    margin-left: 0;
+    margin-top: 70px;
+    width: 40%;
+}
+
+#thankyou img {
+    margin-right: 50%;
+    width: 80%;
+    height: auto;
+    border: 8px dotted rgb(230, 45, 89);
+}
+
+input {
+    background-color: white;
+    width: 50%;
+    height: 50px;
+    padding: 1px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+textarea {
+    height: 200px;
+    width: 50%;
+    resize: none;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 3px;
+}
+
+#form {
+    margin-top: 60px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+#form ul {
+    list-style-type: none;
+}
+
+#form p {
+    margin-bottom: 3px;
+}
+
+input[type=submit] {
+    margin-top: 30px;
+    background-color: #4CAF50;
+    width: 15%;
+    color: white;
+    padding: 12px 20px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+
+/* End of contactus.html */
+
+
+/* General styling for each sign page */
+
+.z-sign {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 400px;
+    height: auto;
+}
+
+.feature p{
+        font-size: 18px;
+}
+
+.feature h3{
+    font-size: 22px;
+}
+.element{
+    width: 90px;
+    height: auto;
+    margin-bottom: -10px;
+}
+
+.description {
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+
+.description h3 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.description p , li {
+    font-size: 17px;
+}
+
+.direction-l{
+    float:left;
+}
+
+.direction-r{
+    float:right;
+}
+
+.direction-l img{
+    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.direction-r img{
+    margin-right: 30px;
+    width: 25px;
+    height: 25px;
+}
+/* End of Generaly styling for each sign page */
+
+
+/* Footer section */
+
+footer {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+footer a {
+    color: white;
+}
