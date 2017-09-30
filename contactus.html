@@ -12,7 +12,7 @@
 	<title>Contact Us</title>
 
 	<!-- custom stylesheet -->
-	<link href="css/main.css" rel="stylesheet" />
+	<link href="css/ChineseZodiac.css" rel="stylesheet" />
 	<link rel="icon" href="images/logo.png" type="image/png" />
 
 	<!-- end stylesheet -->
@@ -28,10 +28,10 @@
 			<div id="nav">
 				<a href="index.html"><img src="images/ChineseZodiacBanner.png" alt="banner" id="banner"></a>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="12signs.html">Zodiac Signs</a></li>
-					<li><a href="contactus.html">Contact Us</a></li>
-					<li><a href="https://www.bcit.ca/" target="_blank">BCIT</a></li>
+					<li><a href="index.html"><img class="nav-btn" src="images/Home.png" alt="home" /></a></li>
+					<li><a href="12signs.html"><img class="nav-btn" src="images/ZodiacSigns.png" alt="zodiac sign" /></a></li>
+					<li><a href="contactus.html"><img class="nav-btn" src="images/Contact.png" alt="contact" /></a></li>
+					<li><a href="https://www.bcit.ca/" target="_blank"><img class="nav-btn" src="images/BCIT.png" alt="bcit" /></a></li>
 				</ul>
 			</div>
 			<!-- End of Header and Navigation Bar -->
@@ -43,30 +43,48 @@
 				</div>
 				<!-- Contact form -->
 				<form id="form" action="http://php.vncvr.ca/zodiac/" method="post" target="_blank">
-					<ul>
-						<li>
-							<p>
-								Name:
-							</p>
-							<input type="text" name="Name" placeholder="Enter your name..." />
-						</li>
-						<li>
-							<p>
-								Email Address:
-							</p>
-							<input type="text" name="Email" placeholder="Enter your email..." />
-						</li>
-						<li>
-							<p>
-								Comment:
-							</p>
-							<textarea name="Comment" placeholder="Anything to help us make the site better..."></textarea>
-						</li>
-						<li>
-							<input type="submit" value="Submit">
+					<table>
+						<tr>
+							<td class="col-1">
+								<p>
+									Name:
+								</p>
+							</td>
+							<td>
+								<input type="text" name="Name" placeholder="Enter your name...">
+							</td>
+							<tr>
+								<td class="col-1">
+									<p>
+										Email Address:
+									</p>
+								</td>
+								<td>
+									<input type="text" name="Email" placeholder="Enter your email..." />
+								</td>
+							</tr>
+							<tr>
+								<td class="col-1">
+									<p>
+										Comment:
+									</p>
+								</td>
+								<td>
+									<textarea name="Comment" placeholder="Anything to help us make the site better..."></textarea>
 
-						</li>
-					</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+								</td>
+								<td>
+									<input type="submit" value="Submit">
+								</td>
+							</tr>
+
+					</table>
+
 					<!-- End of Contact Form -->
 
 					<!-- Hidden Input with students' names and set -->
@@ -83,9 +101,9 @@
 	<!-- Footer contains Name, Student ID, Contact spam-free email -->
 	<footer>
 		<p>Created and Designed by CST-1D Andrew Yang & Mike Hoang</p>
-		<p>Contact: <a style="color:white;text-decoration:none" href="mai&#108;&#116;&#111;&#58;an%68m&#105;nhhoan%671%&#51;3&#64;%67m%61%69&#108;%&#50;&#69;co%6&#68;">Mike Hoang (A01020970)</a></p>
+		<p>Contact: <a href="mai&#108;&#116;&#111;&#58;an%68m&#105;nhhoan%671%&#51;3&#64;%67m%61%69&#108;%&#50;&#69;co%6&#68;">Mike Hoang (A01020970)</a></p>
 		<p>Contact:
-			<a style="color:white;text-decoration:none" href="&#109;ailto&#58;%&#55;3nail0%&#51;52&#53;&#64;&#110;aver&#46;com">Andrew Yang (A01021498)
+			<a href="&#109;ailto&#58;%&#55;3nail0%&#51;52&#53;&#64;&#110;aver&#46;com">Andrew Yang (A01021498)
 			</a>
 		</p>
 	</footer>
